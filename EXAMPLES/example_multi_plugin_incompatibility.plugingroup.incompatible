@@ -1,0 +1,29 @@
+PLUGIN_LIST:
+  PLUGIN_NAME: Example Library Plugin
+    PLUGIN_VERSION: 1.6
+    DOWNLOAD_LINK: https://spigotmc.org/resources/
+  PLUGIN_NAME: Example Library Plugin
+    PLUGIN_VERSION: 1.6
+    DOWNLOAD_LINK: https://spigotmc.org/resources/
+  PLUGIN_NAME: Example Library Plugin
+    PLUGIN_VERSION: 1.6
+    DOWNLOAD_LINK: https://spigotmc.org/resources/
+  PLUGIN_NAME: Example Library Plugin
+    PLUGIN_VERSION: 1.6
+    DOWNLOAD_LINK: https://spigotmc.org/resources/
+  PLUGIN_NAME: Example Library Plugin
+    PLUGIN_VERSION: 1.6
+    DOWNLOAD_LINK: https://spigotmc.org/resources/
+    
+
+MAGMA_VERSION_LIST:
+    - 3a65e28
+  
+Tested environments:
+- MacOS 10.15.X MacBook Pro 8bg of RAM allocated to the server
+ 
+ Determined cause of incompatibility:
+ - Unwkown
+ 
+ Associated issues / Crash reports / Logs:
+ - None

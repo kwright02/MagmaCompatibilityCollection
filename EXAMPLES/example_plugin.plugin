@@ -1,0 +1,8 @@
+PLUGIN_NAME: Plugin Name
+PLUGIN_VERSION: 1.6
+DOWNLOAD_LINK: https://spigotmc.org/resources/
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+ Tested environments:
+ - MacOS 10.15.X MacBook Pro 8gb of RAM allocated to the server

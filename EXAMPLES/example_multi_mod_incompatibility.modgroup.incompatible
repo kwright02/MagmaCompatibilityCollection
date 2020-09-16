@@ -1,6 +1,6 @@
 MOD_LIST:
-  MOD_NAME: Example Library Plugin
-    MOD_VERSION: 1.6
+  CORE_MOD_NAME: Example Library Plugin
+    CORE_MOD_VERSION: 1.6
     DOWNLOAD_LINK: https://spigotmc.org/resources/
   MOD_NAME: Example Library Plugin
     MOD_VERSION: 1.6

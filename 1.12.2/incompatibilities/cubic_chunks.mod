@@ -2,7 +2,7 @@ MOD_NAME: Cubic Chunks
 MOD_VERSION: ANY
 DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/opencubicchunks
 MAGMA_VERSION:
-  - ANY
+  - ALL
   
  Tested Environments:
  - MacOS 10.15.X MacBook Pro 8gb of RAM dedicated to the server

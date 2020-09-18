@@ -1,0 +1,11 @@
+LIBRARY_PLUGIN_NAME: TabooLib
+LIBRARY_PLUGIN_VERSION: 3.6
+DOWNLOAD_LINK: https://github.com/TabooLib/TabooLib
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+ Tested environments:
+ - Windows 10 PC 4gb of RAM allocated to the server
+ 
+ NOTE:
+ - Requires a plugin like TrMenu (https://github.com/TrMenu/TrMenu/actions) or any plugin using the library.

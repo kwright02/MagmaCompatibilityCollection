@@ -1,0 +1,11 @@
+
+PLUGIN_NAME: TAB
+PLUGIN_VERSION: 2.8.7
+DOWNLOAD_LINK: 
+  - https://www.spigotmc.org/resources/tab-1-5-x-1-16-x.57806/
+  - https://www.mc-market.org/resources/14009/
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+ Tested environments:
+ - Windows 10 PC 4gb of RAM allocated to the server

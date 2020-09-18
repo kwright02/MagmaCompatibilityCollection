@@ -1,0 +1,8 @@
+PLUGIN_NAME: LuckPerms
+PLUGIN_VERSION: 5.1.63
+DOWNLOAD_LINK: https://luckperms.net/download
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+ Tested environments:
+ - Windows 10 PC 4gb of RAM allocated to the server

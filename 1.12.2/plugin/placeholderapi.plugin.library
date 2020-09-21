@@ -1,0 +1,8 @@
+PLUGIN_NAME: PlaceholderAPI
+PLUGIN_VERSION: 2.10.9
+DOWNLOAD_LINK: https://www.spigotmc.org/resources/placeholderapi.6245/
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+ Tested environments:
+ - Windows 10 PC 4gb of RAM allocated to the server

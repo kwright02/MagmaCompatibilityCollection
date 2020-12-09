@@ -1,0 +1,8 @@
+PLUGIN_NAME: MinersInsanity
+PLUGIN_VERSION: 1.12.2
+DOWNLOAD_LINK: https://www.spigotmc.org/resources/miners-insanity.36583/
+MAGMA_VERSION_LIST:
+  - c645e79
+  
+ Tested environments:
+ - Windows 10

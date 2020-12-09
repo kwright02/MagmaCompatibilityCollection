@@ -1,0 +1,8 @@
+PLUGIN_NAME: TigerReports
+PLUGIN_VERSION: 1.12.2
+DOWNLOAD_LINK: https://www.spigotmc.org/resources/tigerreports.25773/
+MAGMA_VERSION_LIST:
+  - c645e79
+  
+ Tested environments:
+ - Windows 10

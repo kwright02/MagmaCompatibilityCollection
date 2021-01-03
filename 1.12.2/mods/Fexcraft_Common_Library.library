@@ -1,0 +1,8 @@
+MOD_NAME: Fexcraft Common Library
+MOD_VERSION: 1.12.57
+DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/fexcraft-common-library/files/3071775
+MAGMA_VERSION_LIST:
+  - c645e79
+
+Tested environments:
+- windows 10

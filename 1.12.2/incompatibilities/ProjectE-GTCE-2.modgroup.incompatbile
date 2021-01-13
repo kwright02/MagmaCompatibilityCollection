@@ -1,7 +1,6 @@
 MOD_LIST:
-  MOD_NAME: Project E
-    MOD_VERSION: 1.12.2-PE1.4.1
-    DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/projecte
+  MOD_NAME: Any mods which modified `ISpecialArmor$ArmorProperties`
+    MOD_VERSION: `unknown`
   MOD_NAME: GregTech Community Edition
     MOD_VERSION: 1.12.2-1.10.0.546
     DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/gregtechce

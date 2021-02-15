@@ -5,7 +5,7 @@ MAGMA_VERSION_LIST:
   - 3a65e28
   
 Tested environments:
-- MacOS 10.15.X MacBook Pro 8bg of RAM allocated to the server
+- Windows 10 8bg of RAM allocated to the server
  
  Determined cause of incompatibility:
  - Unknown

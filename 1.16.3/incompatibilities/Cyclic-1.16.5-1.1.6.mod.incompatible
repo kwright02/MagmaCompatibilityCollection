@@ -1,0 +1,14 @@
+MOD_NAME: Cyclic
+MOD_VERSION: 1.1.6
+DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/cyclic
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+Tested environments:
+- Windows 10 8bg of RAM allocated to the server
+ 
+ Determined cause of incompatibility:
+ - Caused by 0: java.lang.NoClassDefFoundError: net/minecraftforge/common/util/ForgeSoundType
+ 
+ Associated issues / Crash reports / Logs:
+ - None

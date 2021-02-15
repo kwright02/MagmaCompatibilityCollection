@@ -1,0 +1,57 @@
+MOD_NAME: Immersive portals
+MOD_VERSION: 0.14
+DOWNLOAD_LINK: https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge
+MAGMA_VERSION_LIST:
+  - 3a65e28
+  
+Tested environments:
+- MacOS 10.15.X MacBook Pro 8bg of RAM allocated to the server
+ 
+ Determined cause of incompatibility:
+ - Unknown
+ 
+ Associated issues / Crash reports / Logs:
+
+[main/FATAL] [mixin/]: Mixin apply failed imm_ptl_mixins.json:common.MixinServerWorld -> net.minecraft.world.server.ServerWorld: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow field field_241103_E_ was not located in the target class net.minecraft.world.server.ServerWorld. Using refmap imm_ptl.refmap.json
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow field field_241103_E_ was not located in the target class net.minecraft.world.server.ServerWorld. Using refmap imm_ptl.refmap.json
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachFields(MixinPreProcessorStandard.java:616) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:292) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:267) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1271) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:287) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:345) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:569) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:223) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformationHandler.processClass(MixinTransformationHandler.java:121) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.processClass(MixinLaunchPlugin.java:131) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.0.9.jar:8.0.9+86+master.3cf110c]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at net.minecraft.block.Blocks.<clinit>(Blocks.java:30) ~[?:?]
+	at net.minecraft.world.gen.surfacebuilders.SurfaceBuilder.<clinit>(SurfaceBuilder.java:12) ~[?:?]
+	at net.minecraft.world.gen.surfacebuilders.ConfiguredSurfaceBuilders.<clinit>(SourceFile:11) ~[?:?]
+	at net.minecraft.util.registry.WorldGenRegistries.lambda$static$0(WorldGenRegistries.java:33) ~[?:?]
+	at net.minecraft.util.registry.WorldGenRegistries.lambda$static$6(WorldGenRegistries.java:89) ~[?:?]
+	at java.util.LinkedHashMap.forEach(Unknown Source) ~[?:1.8.0_162]
+	at net.minecraft.util.registry.WorldGenRegistries.<clinit>(WorldGenRegistries.java:88) ~[?:?]
+	at net.minecraft.util.registry.Registry.<clinit>(Registry.java:464) ~[?:?]
+	at net.minecraft.util.registry.Bootstrap.func_151354_b(Bootstrap.java:41) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:97) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_162]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_162]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_162]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[custom_server.jar:36.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [custom_server.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [custom_server.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [custom_server.jar:?]

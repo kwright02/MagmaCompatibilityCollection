@@ -1,0 +1,8 @@
+PLUGIN_NAME: AcceptTheRules
+PLUGIN_VERSION: 4.7
+DOWNLOAD_LINK: https://www.spigotmc.org/resources/accept-the-rules-1-8-8-1-16-x-forces-players-to-read-and-accept-your-rules.53775/
+MAGMA_VERSION_LIST:
+  - 1bc8635
+  
+ Tested environments:
+ - Windows 10

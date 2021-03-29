@@ -1,0 +1,8 @@
+PLUGIN_NAME: StreamingDrops
+PLUGIN_VERSION: 6.2
+DOWNLOAD_LINK: https://www.spigotmc.org/resources/streamingdrops-1-8-8-1-16-x-twitch-drops-for-minecraft-server-discord-integration.76996/
+MAGMA_VERSION_LIST:
+  - 1bc8635
+  
+ Tested environments:
+ - Windows 10
